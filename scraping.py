@@ -22,7 +22,7 @@ with open('bloginfocodewithme.csv', 'w') as csv_file:
 # get date
         date = post.select('time')[0].get_text()
         csv_writer.writerow([title, link, date])
-
+        # print(title, link, date)
 
 
 
